@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <body>
+
+        <h2 align="center">Employee Details</h2>
+
+        <form>
+            <table align="center" cellpadding="8" width="600">
+                
+                <tr>
+                    <td colspan="2"><b>01. Personal Information</b></td>
+                </tr>
+
+                <tr>
+                    <td width="50%">
+                        <label for="fname">Employee Name</label><br>
+                        <input type="text" id="fname" name="fname" required placeholder="First Name">
+                    </td>
+                    <td width="50%">
+                        <label for="lname">Last Name</label><br>
+                        <input type="text" id="lname" name="lname" placeholder="Last Name">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="date">Starting Date</label><br>
+                        <input type="date" id="date" name="date" placeholder="DD/MM/YYYY" style="width: 100%;">
+                    </td>
+                    <td>
+                        <label for="dob">Birth Date</label><br>
+                        <input type="date" id="dob" name="dob" placeholder="DD/MM/YYYY" style="width: 100%;">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="type">Employee Type</label><br>
+                        <select id="type" name="type" style="width: 100%;">
+                            <option value="" disabled selected>Select</option>
+                            <option>Full Time</option>
+                            <option>Part Time</option>
+                        </select>
+                    </td>
+                    <td>
+                        <label for="gender">Gender</label><br>
+                        <input type="radio" id="male" name="gender" value="male">
+                        <label for="male">Male</label>
+                        <input type="radio" id="female" name="gender" value="female" checked>
+                        <label for="female">Female</label>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2">
+                        <label for="position">Position</label><br>
+                        <input type="text" id="position" name="position" placeholder="Position" style="width: 100%;">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2" style="padding-top: 20px;"><b>02. Location</b></td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="city">City</label><br>
+                        <input type="text" id="city" name="city" placeholder="City" style="width: 100%;">
+                    </td>
+                    <td>
+                        <label for="state">State</label><br>
+                        <input type="text" id="state" name="state" placeholder="State" style="width: 100%;">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td valign="top">
+                        <label for="zip">ZIP</label><br>
+                        <input type="text" id="zip" name="zip" placeholder="ZIP" style="width: 100%;">
+                    </td>
+                    <td>
+                        <label for="address">Address</label><br>
+                        <textarea id="address" rows="10" cols="30" placeholder="Address" style="width: 100%;"></textarea>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2" style="padding-top: 20px;"><b>03. Contact Information</b></td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="phone">Phone</label><br>
+                        <input type="text" id="phone" name="phone" placeholder="Phone" style="width: 100%;">
+                    </td>
+                    <td>
+                        <label for="email">Email</label><br>
+                        <input type="email" id="email" name="email" placeholder="Email" style="width: 100%;">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2" align="center" style="padding-top: 30px;">
+                        <input type="submit" value="Create" style="padding: 5px 20px;">
+                    </td>
+                </tr>
+
+            </table>
+        </form>
+    </body>
+</html>
